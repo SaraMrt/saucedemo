@@ -8,10 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.saucedemo.automation.base.TestBase;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-public class LoginPage extends TestBase{
+
+public class LoginPage {
 
     @FindBy(id="user-name")
     private WebElement username;
@@ -41,15 +40,9 @@ public class LoginPage extends TestBase{
     private WebDriver driver;
 
     public LoginPage(WebDriver driver) throws IOException {
-        super();
         this.driver = driver;
         PageFactory.initElements(driver, this);
 
-    }
-
-
-    public String getLoginPageTitle() {
-        return driver.getTitle();
     }
 
 

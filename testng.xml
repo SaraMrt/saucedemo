@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/domen/OneDrive/Desktop/Progetti/saucedemo">
+        <classes>
+            <class name="com.saucedemo.automation.TestSuite.CartPageTest">
+                <methods>
+                    <include name="addItemsToCart"/>
+                    <include name="proceedToCheckOutButton"/>
+                    <include name="continueToShoppingButton"/>
+                </methods>
+            </class>
+            <class name="com.saucedemo.automation.TestSuite.LoginPageTest">
+                <methods>
+                    <include name="doLoginWithValidCredential"/>
+                    <include name="doLoginWithEmptyUser"/>
+                    <include name="doLoginWithEmptyPass"/>
+                    <include name="doLoginWithInvalidCredential"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
