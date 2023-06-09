@@ -50,6 +50,6 @@ password: secret_sauce
 
 # Reports
 
-![TestSuite Report](C:\Users\domen\OneDrive\Desktop\Progetti\saucedemo\src\test\java\com\saucedemo\automation\output\TestSuite_Report.png)
+![TestSuite Report](src\test\java\com\saucedemo\automation\output\TestSuite_Report.png)
 
-![ Times for TestSuite](C:\Users\domen\OneDrive\Desktop\Progetti\saucedemo\src\test\java\com\saucedemo\automation\output\Times_TestSuite.png)
+![ Times for TestSuite](src\test\java\com\saucedemo\automation\output\Times_TestSuite.png)
