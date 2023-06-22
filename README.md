@@ -53,3 +53,8 @@ password: secret_sauce
 ![TestSuite Report](src/test/java/com/saucedemo/automation/output/TestSuite_Report.png)
 
 ![ Times for TestSuite](src/test/java/com/saucedemo/automation/output/Times_TestSuite.png)
+
+# Allure Reports
+
+`mvn allure:serve
+`
