@@ -16,7 +16,7 @@ public class TestBase {
     @BeforeClass
     public void setUp() throws IOException{
         System.setProperty("webdriver.chrome.driver","src/main/java/com/saucedemo/automation/config/chromedriver.exe");
-        ChromeOptions ops=new ChromeOptions();
+        ChromeOptions ops = new ChromeOptions();
         ops.addArguments("--headed");
         driver=new ChromeDriver(ops);
         driver.get("https://www.saucedemo.com/");
